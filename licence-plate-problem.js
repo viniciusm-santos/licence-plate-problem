@@ -1,3 +1,7 @@
+/**
+ * @param {number} n
+ * @return {string}
+ */
 function generatePlate(n) {
   const blocks = Array.from({ length: 7 }, (_, i) => 10 ** (6 - i) * 26 ** i);
 
